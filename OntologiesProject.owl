@@ -1,0 +1,1313 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/ahmedabdelnasser/ontologies/2022/4/untitled-ontology-2"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/ahmedabdelnasser/ontologies/2022/4/untitled-ontology-2">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Department"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Diagnoses"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Doctor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hospital"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Medicine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nurse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Patient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pharmacy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stuff"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#belongTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#buy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#consistOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#contain"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#get"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#prescribe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#provide"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#runBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#sell"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#takeCareOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#treat"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#visit"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#daysOfTreatment"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#depFloor"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#depName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#diagnosesName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#diagnosesSymptoms"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hosAddress"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hosBranchID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hosManager"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hosPhone"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#medID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#medName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#medPrice"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#personAddress"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#personAge"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#personEmail"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#personGender"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#personID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#personName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#personPhone"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#phrFloor"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#phrWorkShift"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#rank"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#salary"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#specialization"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#department1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#department2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#department3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#diagnoses1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#diagnoses2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#doctor1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#doctor2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#doctor3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hospital1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#medicine1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#medicine2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#medicine3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#medicine4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#medicine5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#medicine6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#nurse1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#nurse2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#nurse3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#nurse4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#nurse5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#patient1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#patient2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#patient3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#patient4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pharmacy1"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Doctor"/>
+        <Class IRI="#Stuff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Doctor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#prescribe"/>
+            <Class IRI="#Medicine"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Doctor"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#belongTo"/>
+            <Class IRI="#Department"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hospital"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#contain"/>
+            <Class IRI="#Pharmacy"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hospital"/>
+        <ObjectMaxCardinality cardinality="500">
+            <ObjectProperty IRI="#runBy"/>
+            <Class IRI="#Stuff"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nurse"/>
+        <Class IRI="#Stuff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nurse"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#takeCareOf"/>
+            <Class IRI="#Patient"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nurse"/>
+        <ObjectMaxCardinality cardinality="5">
+            <ObjectProperty IRI="#takeCareOf"/>
+            <Class IRI="#Patient"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Patient"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Patient"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#get"/>
+            <Class IRI="#Diagnoses"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stuff"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Hospital"/>
+        <NamedIndividual IRI="#hospital1"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#prescribe"/>
+        <NamedIndividual IRI="#doctor1"/>
+        <NamedIndividual IRI="#medicine1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#prescribe"/>
+        <NamedIndividual IRI="#doctor1"/>
+        <NamedIndividual IRI="#medicine2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#prescribe"/>
+        <NamedIndividual IRI="#doctor2"/>
+        <NamedIndividual IRI="#medicine3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#prescribe"/>
+        <NamedIndividual IRI="#doctor2"/>
+        <NamedIndividual IRI="#medicine4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#prescribe"/>
+        <NamedIndividual IRI="#doctor3"/>
+        <NamedIndividual IRI="#medicine5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#prescribe"/>
+        <NamedIndividual IRI="#doctor3"/>
+        <NamedIndividual IRI="#medicine6"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#consistOf"/>
+        <NamedIndividual IRI="#hospital1"/>
+        <NamedIndividual IRI="#department1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#consistOf"/>
+        <NamedIndividual IRI="#hospital1"/>
+        <NamedIndividual IRI="#department2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#consistOf"/>
+        <NamedIndividual IRI="#hospital1"/>
+        <NamedIndividual IRI="#department3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contain"/>
+        <NamedIndividual IRI="#hospital1"/>
+        <NamedIndividual IRI="#pharmacy1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#runBy"/>
+        <NamedIndividual IRI="#hospital1"/>
+        <NamedIndividual IRI="#doctor1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#runBy"/>
+        <NamedIndividual IRI="#hospital1"/>
+        <NamedIndividual IRI="#doctor2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#runBy"/>
+        <NamedIndividual IRI="#hospital1"/>
+        <NamedIndividual IRI="#doctor3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#runBy"/>
+        <NamedIndividual IRI="#hospital1"/>
+        <NamedIndividual IRI="#nurse1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#runBy"/>
+        <NamedIndividual IRI="#hospital1"/>
+        <NamedIndividual IRI="#nurse2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#runBy"/>
+        <NamedIndividual IRI="#hospital1"/>
+        <NamedIndividual IRI="#nurse3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#runBy"/>
+        <NamedIndividual IRI="#hospital1"/>
+        <NamedIndividual IRI="#nurse4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#runBy"/>
+        <NamedIndividual IRI="#hospital1"/>
+        <NamedIndividual IRI="#nurse5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#takeCareOf"/>
+        <NamedIndividual IRI="#nurse1"/>
+        <NamedIndividual IRI="#patient1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#takeCareOf"/>
+        <NamedIndividual IRI="#nurse2"/>
+        <NamedIndividual IRI="#patient1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#takeCareOf"/>
+        <NamedIndividual IRI="#nurse3"/>
+        <NamedIndividual IRI="#patient2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#takeCareOf"/>
+        <NamedIndividual IRI="#nurse3"/>
+        <NamedIndividual IRI="#patient3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#takeCareOf"/>
+        <NamedIndividual IRI="#nurse4"/>
+        <NamedIndividual IRI="#patient3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#takeCareOf"/>
+        <NamedIndividual IRI="#nurse5"/>
+        <NamedIndividual IRI="#patient3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#takeCareOf"/>
+        <NamedIndividual IRI="#nurse5"/>
+        <NamedIndividual IRI="#patient4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#get"/>
+        <NamedIndividual IRI="#patient1"/>
+        <NamedIndividual IRI="#diagnoses1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#visit"/>
+        <NamedIndividual IRI="#patient1"/>
+        <NamedIndividual IRI="#doctor1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#get"/>
+        <NamedIndividual IRI="#patient2"/>
+        <NamedIndividual IRI="#diagnoses1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#visit"/>
+        <NamedIndividual IRI="#patient2"/>
+        <NamedIndividual IRI="#doctor1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#get"/>
+        <NamedIndividual IRI="#patient3"/>
+        <NamedIndividual IRI="#diagnoses1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#visit"/>
+        <NamedIndividual IRI="#patient3"/>
+        <NamedIndividual IRI="#doctor2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#get"/>
+        <NamedIndividual IRI="#patient4"/>
+        <NamedIndividual IRI="#diagnoses2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#visit"/>
+        <NamedIndividual IRI="#patient4"/>
+        <NamedIndividual IRI="#doctor3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#sell"/>
+        <NamedIndividual IRI="#pharmacy1"/>
+        <NamedIndividual IRI="#medicine1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#sell"/>
+        <NamedIndividual IRI="#pharmacy1"/>
+        <NamedIndividual IRI="#medicine2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#sell"/>
+        <NamedIndividual IRI="#pharmacy1"/>
+        <NamedIndividual IRI="#medicine3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#sell"/>
+        <NamedIndividual IRI="#pharmacy1"/>
+        <NamedIndividual IRI="#medicine4"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#depFloor"/>
+        <NamedIndividual IRI="#department1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#depName"/>
+        <NamedIndividual IRI="#department1"/>
+        <Literal>ICU</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#depFloor"/>
+        <NamedIndividual IRI="#department2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#depName"/>
+        <NamedIndividual IRI="#department2"/>
+        <Literal>cardio</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#depFloor"/>
+        <NamedIndividual IRI="#department3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#depName"/>
+        <NamedIndividual IRI="#department3"/>
+        <Literal>surgery</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#diagnosesName"/>
+        <NamedIndividual IRI="#diagnoses1"/>
+        <Literal>covid</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#diagnosesSymptoms"/>
+        <NamedIndividual IRI="#diagnoses1"/>
+        <Literal>fever</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#diagnosesName"/>
+        <NamedIndividual IRI="#diagnoses2"/>
+        <Literal>covid</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#diagnosesSymptoms"/>
+        <NamedIndividual IRI="#diagnoses2"/>
+        <Literal>cough</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personName"/>
+        <NamedIndividual IRI="#doctor1"/>
+        <Literal>Amr Mohamed</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rank"/>
+        <NamedIndividual IRI="#doctor1"/>
+        <Literal>sen_res</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personName"/>
+        <NamedIndividual IRI="#doctor2"/>
+        <Literal>Seif Khalid</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rank"/>
+        <NamedIndividual IRI="#doctor2"/>
+        <Literal>sen_res</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personName"/>
+        <NamedIndividual IRI="#doctor3"/>
+        <Literal>Ahmed Abd El-Nasser</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rank"/>
+        <NamedIndividual IRI="#doctor3"/>
+        <Literal>med_dir</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hosAddress"/>
+        <NamedIndividual IRI="#hospital1"/>
+        <Literal>31, Nagib Mahfoz, Nasr City</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hosBranchID"/>
+        <NamedIndividual IRI="#hospital1"/>
+        <Literal>br1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hosManager"/>
+        <NamedIndividual IRI="#hospital1"/>
+        <Literal>Ahmed Ayman Nabil</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hosPhone"/>
+        <NamedIndividual IRI="#hospital1"/>
+        <Literal>0123456789</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#medName"/>
+        <NamedIndividual IRI="#medicine1"/>
+        <Literal>a</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#medName"/>
+        <NamedIndividual IRI="#medicine2"/>
+        <Literal>b</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#medName"/>
+        <NamedIndividual IRI="#medicine3"/>
+        <Literal>c</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#medName"/>
+        <NamedIndividual IRI="#medicine4"/>
+        <Literal>d</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#medName"/>
+        <NamedIndividual IRI="#medicine5"/>
+        <Literal>e</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#medName"/>
+        <NamedIndividual IRI="#medicine6"/>
+        <Literal>f</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personName"/>
+        <NamedIndividual IRI="#nurse1"/>
+        <Literal>Sara</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#specialization"/>
+        <NamedIndividual IRI="#nurse1"/>
+        <Literal>cardiology</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personName"/>
+        <NamedIndividual IRI="#nurse2"/>
+        <Literal>Menna</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#specialization"/>
+        <NamedIndividual IRI="#nurse2"/>
+        <Literal>cardiology</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personName"/>
+        <NamedIndividual IRI="#nurse3"/>
+        <Literal>Alaa</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#specialization"/>
+        <NamedIndividual IRI="#nurse3"/>
+        <Literal>cardiology</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personName"/>
+        <NamedIndividual IRI="#nurse4"/>
+        <Literal>Fatema</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#specialization"/>
+        <NamedIndividual IRI="#nurse4"/>
+        <Literal>surgery</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personName"/>
+        <NamedIndividual IRI="#nurse5"/>
+        <Literal>Noha</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#specialization"/>
+        <NamedIndividual IRI="#nurse5"/>
+        <Literal>surgery</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#daysOfTreatment"/>
+        <NamedIndividual IRI="#patient1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personName"/>
+        <NamedIndividual IRI="#patient1"/>
+        <Literal>Mostafa</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#daysOfTreatment"/>
+        <NamedIndividual IRI="#patient2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personName"/>
+        <NamedIndividual IRI="#patient2"/>
+        <Literal>Mohamed</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#daysOfTreatment"/>
+        <NamedIndividual IRI="#patient3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">11</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personName"/>
+        <NamedIndividual IRI="#patient3"/>
+        <Literal>Kareem</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#daysOfTreatment"/>
+        <NamedIndividual IRI="#patient4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">13</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personName"/>
+        <NamedIndividual IRI="#patient4"/>
+        <Literal>Mahmoud</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#phrFloor"/>
+        <NamedIndividual IRI="#pharmacy1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#phrWorkShift"/>
+        <NamedIndividual IRI="#pharmacy1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#belongTo"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#buy"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#consistOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#contain"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#get"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#prescribe"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#provide"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#runBy"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#sell"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#takeCareOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#treat"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#visit"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#belongTo"/>
+        <Class IRI="#Doctor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#buy"/>
+        <Class IRI="#Patient"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#consistOf"/>
+        <Class IRI="#Hospital"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#contain"/>
+        <Class IRI="#Hospital"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#get"/>
+        <Class IRI="#Patient"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#prescribe"/>
+        <Class IRI="#Doctor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#provide"/>
+        <Class IRI="#Doctor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#runBy"/>
+        <Class IRI="#Hospital"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#sell"/>
+        <Class IRI="#Pharmacy"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#takeCareOf"/>
+        <Class IRI="#Nurse"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#treat"/>
+        <Class IRI="#Medicine"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#visit"/>
+        <Class IRI="#Patient"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#belongTo"/>
+        <Class IRI="#Department"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#buy"/>
+        <Class IRI="#Medicine"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#consistOf"/>
+        <Class IRI="#Department"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#contain"/>
+        <Class IRI="#Pharmacy"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#get"/>
+        <Class IRI="#Diagnoses"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#prescribe"/>
+        <Class IRI="#Medicine"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#provide"/>
+        <Class IRI="#Diagnoses"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#runBy"/>
+        <Class IRI="#Stuff"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#sell"/>
+        <Class IRI="#Medicine"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#takeCareOf"/>
+        <Class IRI="#Patient"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#treat"/>
+        <Class IRI="#Diagnoses"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#visit"/>
+        <Class IRI="#Doctor"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#daysOfTreatment"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#depFloor"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#depName"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#diagnosesName"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#diagnosesSymptoms"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hosAddress"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hosBranchID"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hosManager"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hosPhone"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#medID"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#medName"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#medPrice"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#personAddress"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#personAge"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#personEmail"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#personGender"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#personID"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#personName"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#personPhone"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#phrFloor"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#phrWorkShift"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#rank"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#salary"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#specialization"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#daysOfTreatment"/>
+        <Class IRI="#Patient"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#daysOfTreatment"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#daysOfTreatment"/>
+            <DatatypeRestriction>
+                <Datatype abbreviatedIRI="xsd:int"/>
+                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">0</Literal>
+                </FacetRestriction>
+                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">14</Literal>
+                </FacetRestriction>
+            </DatatypeRestriction>
+        </DataSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#depFloor"/>
+        <Class IRI="#Department"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#depFloor"/>
+        <ObjectUnionOf>
+            <DataHasValue>
+                <DataProperty IRI="#depFloor"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+            </DataHasValue>
+            <DataHasValue>
+                <DataProperty IRI="#depFloor"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+            </DataHasValue>
+            <DataHasValue>
+                <DataProperty IRI="#depFloor"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+            </DataHasValue>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#depName"/>
+        <Class IRI="#Department"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#depName"/>
+        <ObjectUnionOf>
+            <DataHasValue>
+                <DataProperty IRI="#depName"/>
+                <Literal>ICU</Literal>
+            </DataHasValue>
+            <DataHasValue>
+                <DataProperty IRI="#depName"/>
+                <Literal>bones</Literal>
+            </DataHasValue>
+            <DataHasValue>
+                <DataProperty IRI="#depName"/>
+                <Literal>cardio</Literal>
+            </DataHasValue>
+            <DataHasValue>
+                <DataProperty IRI="#depName"/>
+                <Literal>surgery</Literal>
+            </DataHasValue>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#diagnosesName"/>
+        <Class IRI="#Diagnoses"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#diagnosesSymptoms"/>
+        <Class IRI="#Diagnoses"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hosAddress"/>
+        <Class IRI="#Hospital"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hosBranchID"/>
+        <Class IRI="#Hospital"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hosBranchID"/>
+        <ObjectUnionOf>
+            <DataHasValue>
+                <DataProperty IRI="#hosBranchID"/>
+                <Literal>br1</Literal>
+            </DataHasValue>
+            <DataHasValue>
+                <DataProperty IRI="#hosBranchID"/>
+                <Literal>br2</Literal>
+            </DataHasValue>
+            <DataHasValue>
+                <DataProperty IRI="#hosBranchID"/>
+                <Literal>br3</Literal>
+            </DataHasValue>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hosManager"/>
+        <Class IRI="#Hospital"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hosPhone"/>
+        <Class IRI="#Hospital"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#medID"/>
+        <Class IRI="#Medicine"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#medName"/>
+        <Class IRI="#Medicine"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#medPrice"/>
+        <Class IRI="#Medicine"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#personAddress"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#personAge"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#personAge"/>
+        <DataMinCardinality cardinality="15">
+            <DataProperty IRI="#personAge"/>
+        </DataMinCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#personEmail"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#personGender"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#personGender"/>
+        <ObjectUnionOf>
+            <DataHasValue>
+                <DataProperty IRI="#personGender"/>
+                <Literal>female</Literal>
+            </DataHasValue>
+            <DataHasValue>
+                <DataProperty IRI="#personGender"/>
+                <Literal>male</Literal>
+            </DataHasValue>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#personID"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#personName"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#personPhone"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#phrFloor"/>
+        <Class IRI="#Pharmacy"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#phrFloor"/>
+        <DataExactCardinality cardinality="0">
+            <DataProperty IRI="#phrFloor"/>
+        </DataExactCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#phrWorkShift"/>
+        <Class IRI="#Pharmacy"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#phrWorkShift"/>
+        <ObjectUnionOf>
+            <DataHasValue>
+                <DataProperty IRI="#phrWorkShift"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+            </DataHasValue>
+            <DataHasValue>
+                <DataProperty IRI="#phrWorkShift"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+            </DataHasValue>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#rank"/>
+        <Class IRI="#Doctor"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#rank"/>
+        <ObjectUnionOf>
+            <DataHasValue>
+                <DataProperty IRI="#rank"/>
+                <Literal>chef_res</Literal>
+            </DataHasValue>
+            <DataHasValue>
+                <DataProperty IRI="#rank"/>
+                <Literal>fellow</Literal>
+            </DataHasValue>
+            <DataHasValue>
+                <DataProperty IRI="#rank"/>
+                <Literal>jun_res</Literal>
+            </DataHasValue>
+            <DataHasValue>
+                <DataProperty IRI="#rank"/>
+                <Literal>med_dir</Literal>
+            </DataHasValue>
+            <DataHasValue>
+                <DataProperty IRI="#rank"/>
+                <Literal>sen_res</Literal>
+            </DataHasValue>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#salary"/>
+        <Class IRI="#Stuff"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#salary"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#salary"/>
+            <DatatypeRestriction>
+                <Datatype abbreviatedIRI="xsd:double"/>
+                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">1200.0</Literal>
+                </FacetRestriction>
+                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">100000.0</Literal>
+                </FacetRestriction>
+            </DatatypeRestriction>
+        </DataSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#specialization"/>
+        <Class IRI="#Nurse"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#specialization"/>
+        <ObjectUnionOf>
+            <DataHasValue>
+                <DataProperty IRI="#specialization"/>
+                <Literal>cardiology</Literal>
+            </DataHasValue>
+            <DataHasValue>
+                <DataProperty IRI="#specialization"/>
+                <Literal>critical_care</Literal>
+            </DataHasValue>
+            <DataHasValue>
+                <DataProperty IRI="#specialization"/>
+                <Literal>surgery</Literal>
+            </DataHasValue>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#daysOfTreatment"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#depFloor"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#depName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#diagnosesName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#diagnosesSymptoms"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hosAddress"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hosBranchID"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hosManager"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hosPhone"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#medID"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#medName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#medPrice"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#personAddress"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#personAge"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#personEmail"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#personGender"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#personID"/>
+        <Datatype abbreviatedIRI="xsd:long"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#personName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#personPhone"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#phrFloor"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#phrWorkShift"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#rank"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#salary"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#specialization"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
